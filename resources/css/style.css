@@ -1,0 +1,125 @@
+/* Unisversal Stettings */
+
+html {
+	font-size: 18px;
+}
+
+/* Header */
+
+header .container {
+	height: 64px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-container {
+	background-color: red;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.logo-container span {
+	font-size: 32px;
+}
+
+span .academy {
+	color: grey;
+}
+
+.menu {
+	margin-right: 24px;
+}
+
+.menu ul li {
+	display: inline;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+/* Banner */
+
+.banner-container {
+	display: flex;
+	background-color: darkgrey;
+}
+
+.banner-container .img-container {
+	background-color: red;
+	width: 60%;
+}
+
+.banner-container img {
+	width: 90%;
+	margin: 32px 24px;
+	display: block;
+	overflow: hidden;
+}
+
+.login-container {
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.login-container h1 {
+	font-size: 3rem;
+	margin-bottom: 30px;
+}
+
+.login-container h2 {
+	font-size: 1.5rem;
+	margin-bottom: 40px;
+}
+
+.login-container .button {
+
+}
+
+.login-container span {
+	color: white;
+	font-size: 1.5rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 400px;
+    background-color: grey;
+    text-align: center;
+}
+
+/* Infor Section */
+
+.info-container {
+	display: flex;
+}
+
+.main-info {
+	width: 60%;
+	margin-left: 24px;
+}
+
+.main-info .img-container {
+	width: 100%;
+    margin-top: 32px;
+	margin-bottom: 32px;
+	margin-right: 24px;
+}
+
+.main-info .img-container img {
+	width: 95%;
+	display: block;
+}
+
+.main-info h1 {
+	font-size: 3rem;
+	margin-bottom: 24px;
+}
+
+.main-info p {
+	margin-bottom: 50px;
+}
+
+.main-info span {
+	font-weight: bold;
+}
