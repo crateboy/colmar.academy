@@ -22,6 +22,18 @@ p,
 	color: #7d7d7b;
 }
 
+body {
+	min-width: 1122px;
+}
+
+/* Responsive Section */
+
+@media only screen and (max-width: 560px) {
+  body {
+  	min-width: 0;
+  }
+}
+
 /* Header */
 
 header .container {
@@ -60,6 +72,8 @@ span .academy {
 	width: 100%;
 }
 
+/* Responsive Section */
+
 @media only screen and (max-width: 560px) {
   header .logo-container,
   .menu ul {
@@ -73,7 +87,7 @@ span .academy {
 
   header .container {
     justify-content: flex-start;
-    margin-left: -24px; /* Quick fix... Come back!!!!! */
+    margin-left: -24px;
   }
 }
 
@@ -90,6 +104,8 @@ span .academy {
 
 .banner-container img {
 	width: 90%;
+	min-width: 382px;
+	min-width: 308px;
 	margin: 32px 24px;
 	display: block;
 	overflow: hidden;
@@ -126,6 +142,8 @@ span .academy {
     text-align: center;
 }
 
+/* Responsive Section */
+
 @media only screen and (max-width: 560px) {
     .banner-container {
 	display: flex;
@@ -146,6 +164,7 @@ span .academy {
 	margin-left: 16px;
 	margin-top: 32px;
 	margin-bottom: 32px;
+	font-size: 2.6rem;
     }
 
     .login-container h2 {
@@ -204,7 +223,7 @@ span .academy {
 	padding-top: 16px;
 	border-left: 1px solid #dedede;
 }
-.additional-info-item .image-container {
+.additional-info-item .image-container {      
 	width: 35%;
 	height: auto;
 	margin: 16px;
@@ -217,6 +236,7 @@ span .academy {
 
 .additional-info-item {
 	display: flex;
+	min-height: 180px;
 }
 
 .text-item {
@@ -286,10 +306,20 @@ span .academy {
     display: block;
     }
 
+  .text-item {
+  	width: 100%;
+  }
+
   .text-item h2,
   .text-item p,
   .text-item a {
     margin-left: 32px;
+  }
+
+  .text-item p,
+  .text-item a {
+    font-size: 1.1rem;
+    width: auto;
   }
 
   .text-item h2 {
@@ -332,7 +362,7 @@ span .academy {
     margin-top: 32px;
 }
 
-.courses-container .grid { /* Top Row Scales Differently that bottom row ???????????*/
+.courses-container .grid {
 	display: flex;
 	justify-content: center;
 	padding-left: 56px;
@@ -506,7 +536,7 @@ footer ul li {
 	border-top: 0;
 	padding-top: 16px;
 	padding-bottom: 16px;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 
 }
 
